@@ -1,21 +1,22 @@
 /* Formatação Geral*/
 body{
 	font-family: Staatliches, "Amatic+SC", cursive;
-}
+	}
 
 h1,h2,h3{
 	margin: 0;
 	font-family: "Bebas+Neue";
 	font-weight: 700;
-}
+		}
 p{
 	font-family: Gaegu, "Amatic+SC", cursive; 
+	}
+
+.container{
+	width: 100%;
 }
 /* Cabeçalho ou barra de navegação */
 
-.logo img{
-
-}
 
 nav{
 	display: flex;
@@ -68,16 +69,49 @@ header{
 header p{
 	margin-bottom: 2em;
 	font-size: 1.7em;
-
 }
- .botao{
- 	color: #fff;
- 	text-decoration: none;
- 	padding: 10px 30px;
- 	background-color: #7bccd8;
- 	font-size: .9em;
- 	border-radius: 10%;
- }
+
+.botao{
+	 	color: #fff;
+	 	text-decoration: none;
+	 	padding: 10px 30px;
+	 	background-color: #7bccd8;
+	 	font-size: .9em;
+	 	border-radius: 10%;
+}
+
+
+/*Sobre*/
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #fcd1c2;
+	color: #fff;
+}
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+	align-items: center;
+}
+.foto img{
+	width: 60%;
+	border-radius: 50%;
+	
+}
+.foto{
+	float:left;
+	width: 50%;
+}
+.texto{
+	float:right;
+	width: 50%;
+}
+
+
+
 
 @media screen and (min-width: 768px){
 /* Cabeçalho ou barra de navegação*/
@@ -95,10 +129,27 @@ nav ul{
 
 /* Header*/
 header{
-	height: 600px;
 	height: 60vh;
 	justify-content: center;
+}
 
+/* Sobre*/
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;/*para quebrar*/
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+#sobre h2{
+	align-items: justify;
+	width: 100%;
+}
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 50px;
 }
 
 

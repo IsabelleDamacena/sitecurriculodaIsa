@@ -50,6 +50,35 @@ nav ul li a{
 	color: #fff; 
 }
 
+/*Header */
+
+header{
+	background-image: url('../img/fundo4.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+
+}
+ .botao{
+ 	color: #fff;
+ 	text-decoration: none;
+ 	padding: 10px 30px;
+ 	background-color: #7bccd8;
+ 	font-size: .9em;
+ 	border-radius: 10%;
+ }
+
 @media screen and (min-width: 768px){
 /* Cabeçalho ou barra de navegação*/
 nav{
@@ -63,6 +92,15 @@ nav ul{
 	width: 70%;
 	
 }
+
+/* Header*/
+header{
+	height: 600px;
+	height: 60vh;
+	justify-content: center;
+
+}
+
 
 }
 

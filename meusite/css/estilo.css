@@ -3,13 +3,16 @@ body{
 	font-family: Staatliches, "Amatic+SC", cursive;
 	}
 
-h1,h2,h3{
+h1,h2{
 	margin: 0;
 	font-family: "Bebas+Neue";
 	font-weight: 700;
 		}
 p{
 	font-family: Gaegu, "Amatic+SC", cursive; 
+	}
+	h3{
+	font-family: Caveat;
 	}
 
 .container{
@@ -110,7 +113,39 @@ header p{
 	width: 50%;
 }
 
+/*habilidades*/
+#habilidades{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
 
+}
+
+#habilidades div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+#habilidades p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+
+#habilidades img{
+	margin: 10px 0;
+}
+
+#habilidades h2{
+	font-size: 2em;
+}
 
 
 @media screen and (min-width: 768px){
@@ -151,7 +186,26 @@ header{
 	flex-basis: 300px;
 	padding: 0 50px;
 }
-
+/*habilidades*/
+#habilidades{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 0 auto;
 
 }
+
+#habilidades h2{
+	text-align: center;
+	width: 100%;
+}
+
+#habilidades div{
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+
+}
+
+
 

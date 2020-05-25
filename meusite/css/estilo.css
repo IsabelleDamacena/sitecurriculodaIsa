@@ -116,6 +116,7 @@ header p{
 /*habilidades*/
 #habilidades{
 	padding: 20px;
+	background-color: #c4e0e4;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -145,6 +146,11 @@ header p{
 
 #habilidades h2{
 	font-size: 2em;
+	color: #178b9c;
+}
+
+#habilidades h3{
+	color: #178b9c;
 }
 
 

@@ -10,10 +10,15 @@ h1,h2{
 		}
 p{
 	font-family: Gaegu, "Amatic+SC", cursive; 
+	font-size: 25px;
+	text-align: center;
 	}
-	h3{
+
+h3{
 	font-family: Caveat;
 	}
+
+
 
 .container{
 	width: 100%;
@@ -57,11 +62,11 @@ nav ul li a{
 /*Header */
 
 header{
-	background-image: url('../img/fundo4.jpg');
+	background-image: url('../img/fundo2.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: #fff;
+	color: #a79a8a;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -113,6 +118,7 @@ header p{
 	width: 50%;
 }
 
+
 /*habilidades*/
 #habilidades{
 	padding: 20px;
@@ -154,6 +160,7 @@ header p{
 }
 
 
+
 /*competencias*/
 #competencias{
 	display: flex;
@@ -179,14 +186,15 @@ header p{
 	margin-top: 10px;
 	font-size: 1em;
 	text-align: center;
-
+	color: #FA9475;
 }
+
 
 #competencias p{
 	margin-bottom: 20px;
 	margin-top: 10px;
 	font-size: 1em;
-	text-align: center;
+	text-align: justify;
 }
 
 #competencias a{
@@ -206,6 +214,83 @@ header p{
 	padding-left: 15px;
 	line-height: 1.5;
 }
+
+#competencias div{
+	align-items: center;
+}
+
+/*Trabalhos*/
+
+#trabalhos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+	background-color: #f9cfc2;
+
+}
+
+#trabalhos h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+	color: #b18475;
+
+}
+
+#trabalhos h3 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+	color: #b18475;
+}
+
+
+#trabalhos p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: justify;
+}
+
+#trabalhos a{
+	text-decoration: none;
+}
+
+#trabalhos img{
+	margin-bottom: 0;
+}
+
+#trabalhos .trab p{
+	border-left: 2px solid #fbab93;
+	border-right: 2px solid #fbab93;
+	margin-top: 0;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+
+#trabalhos div{
+	align-items: center;
+}
+
+
+.trab: hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+
+
+
 
 @media screen and (min-width: 768px){
 /* Cabeçalho ou barra de navegação*/
@@ -235,6 +320,7 @@ header{
 	height: 90vh;
 	justify-content: center;
 	min-height: 80vh;
+
 }
 #sobre h2{
 	align-items: justify;
@@ -243,7 +329,10 @@ header{
 #sobre div{
 	flex-grow: 1;
 	flex-basis: 300px;
-	padding: 0 50px;
+	padding: 0 70px;
+}
+#sobre p{
+	text-align:justify;
 }
 /*habilidades*/
 #habilidades{
@@ -276,10 +365,41 @@ header{
 #competencias h2, h3{
 	width: 100%;
 	text-align: center;
+	color: #FA9475;
 }
 #competencias .comp{
 	width: 33.3333333333%;
 	text-align: center;
+}
+
+#competencias p{
+	text-align: justify;
+}
+
+/*Trabalhos*/
+
+#trabalhos {
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #FA9475;
+}
+
+#trabalhos h2, h3{
+	width: 100%;
+	text-align: center;
+	color: #d19f8f;
+}
+#trabalhos .trab{
+	width: 33.3333333333%;
+	text-align: center;
+}
+
+#trabalhos .trab: hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1);
 }
 
 

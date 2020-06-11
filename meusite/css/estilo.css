@@ -161,6 +161,7 @@ header p{
 
 #habilidades h3{
 	color: #178b9c;
+	font-size: 1em;
 }
 
 
@@ -268,7 +269,7 @@ header p{
 }
 
 #trabalhos img{
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
 #trabalhos .trab p{
@@ -353,6 +354,7 @@ header p{
 .cert img{
 	
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 #certificado h2{
@@ -370,7 +372,58 @@ header p{
 	color: #b18475;	
 }
 
+/*Contato*/
 
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #7bccd8;
+
+}
+
+#contato div{
+	margin-bottom: 20px;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-width:20px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	text-align: center;
+	color:#2e6972;
+	margin-top: 20px;
+}
+
+#contato > p{
+	text-align: center;
+	font-size: 1em;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+#contato a{
+	text-decoration: none;
+	color: #1891a3;
+	font-family: Caveat;
+	font-size: 1em;
+}
+
+/*Footer*/
+footer {
+	text-align: center;
+	width: 100%;
+	background-color: #faaa8d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer p{
+	color: #bf3826;
+
+}
 
 @media screen and (min-width: 768px){
 /* Cabeçalho ou barra de navegação*/
@@ -480,6 +533,7 @@ header{
 #trabalhos .trab{
 	width: 33.3333333333%;
 	text-align: center;
+	margin-bottom: 30px;
 }
 /*Hobbies*/
 
@@ -530,6 +584,7 @@ header{
 #certificado .cert{
 	width: 50%;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #certificado h3 {
@@ -538,3 +593,30 @@ header{
 	text-align: center;
 	color: #b18475;
 }
+
+/*Contato*/
+ #contato{
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ 	max-width: 100%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	max-height: 40vh;
+ }
+
+ #contato h2{
+ 	text-align: center;
+ 	width: 100%;
+ }
+
+ #contato > p{
+ 	text-align: center;
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ }
+ #contato p{
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+

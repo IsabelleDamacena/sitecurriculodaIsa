@@ -1,0 +1,631 @@
+/* Formatação Geral*/
+body{
+	font-family: Staatliches, "Amatic+SC", cursive;
+	}
+
+h1,h2{
+	margin: 0;
+	font-family: "Bebas+Neue";
+	font-weight: 700;
+		}
+p{
+	font-family: Gaegu, "Amatic+SC", cursive; 
+	font-size: 25px;
+	text-align: center;
+	}
+
+h3{
+	font-family: Caveat;
+	}
+
+
+
+.container{
+	width: 100%;
+}
+/* Cabeçalho ou barra de navegação */
+
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #7bccd8;
+	padding: 30px;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #fff; 
+}
+
+/*Header */
+
+header{
+	background-image: url('../img/fundo2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #a79a8a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+}
+
+.botao{
+	 	color: #fff;
+	 	text-decoration: none;
+	 	padding: 10px 30px;
+	 	background-color: #7bccd8;
+	 	font-size: .9em;
+	 	border-radius: 10%;
+}
+
+
+/*Sobre*/
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #fcd1c2;
+	color: #fff;
+}
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+	align-items: center;
+}
+#sobre p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+.foto img{
+	width: 60%;
+	border-radius: 50%;
+	
+}
+.foto{
+	float:left;
+	width: 50%;
+}
+.texto{
+	float:right;
+	width: 50%;
+}
+
+
+/*habilidades*/
+#habilidades{
+	padding: 20px;
+	background-color: #c4e0e4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+#habilidades div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+#habilidades p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+
+#habilidades img{
+	margin: 10px 0;
+}
+
+#habilidades h2{
+	font-size: 2em;
+	color: #178b9c;
+}
+
+#habilidades h3{
+	color: #178b9c;
+	font-size: 1em;
+}
+
+
+
+/*competencias*/
+#competencias{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin:0;
+	background-color: #f9cfc2;
+}
+
+#competencias h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+	color: #fd9473;
+
+}
+
+#competencias h3 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+	color: #FA9475;
+}
+
+
+#competencias p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: justify;
+}
+
+#competencias a{
+	text-decoration: none;
+}
+
+#competencias div{
+	margin-left: 20px;
+	margin-right: 20px;
+	align-items: center;
+}
+
+#competencias img{
+	align-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+#competencias .comp p{
+	border-left: 2px solid #fbab93;
+	border-right: 2px solid #fbab93;
+	margin-top: 0;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+
+/*Trabalhos*/
+
+#trabalhos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin:0;
+	background-color: #edd7cb;
+
+}
+
+#trabalhos h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #b18475;
+
+}
+
+#trabalhos h3 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+	color: #b18475;
+}
+
+
+#trabalhos p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: justify;
+}
+
+#trabalhos a{
+	text-decoration: none;
+}
+
+#trabalhos img{
+	margin-bottom: 20px;
+}
+
+#trabalhos .trab p{
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+
+#trabalhos div{
+	align-items: center;
+}
+
+
+.trab: hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+#hobby{
+	
+	align-items: center;
+	padding: 20px;
+	margin:0 auto;
+	background-color: #f3deca;
+	
+}
+
+#hobby h2{
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+	color: #c1946b;
+
+}
+
+#hobby .hob img{
+	width: 95%;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.hob{
+	width: 95%;
+	align-items: center;
+	text-align: center;
+}
+
+#hobby h3{
+	margin-bottom: 14px;
+	margin-top: 30px;
+	font-size: 1.2em;
+	text-align: center;
+	color:#d1ac89;
+	
+
+}
+
+#hobby p{
+	text-align: justify;
+
+}
+#hobby div{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+/*Certificado*/
+
+#certificado{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	background-color: #edd7cb;
+	
+}
+
+.cert img{
+	width: 90%;
+	align-items: center;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+#certificado h2{
+	margin-top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #b18475;
+}
+
+#certificado h3{
+	margin-bottom: 20px;
+	margin-top: 30px;
+	font-size: 1em;
+	text-align: center;
+	color: #b18475;	
+}
+
+/*Contato*/
+
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #7bccd8;
+
+}
+
+#contato div{
+	margin-bottom: 20px;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-width:20px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	text-align: center;
+	color:#2e6972;
+	margin-top: 20px;
+}
+
+#contato > p{
+	text-align: center;
+	font-size: 1em;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+#contato a{
+	text-decoration: none;
+	color: #1891a3;
+	font-family: Caveat;
+	font-size: 1em;
+}
+
+/*Footer*/
+footer {
+	text-align: center;
+	width: 100%;
+	background-color: #faaa8d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer p{
+	color: #bf3826;
+
+}
+
+
+
+
+@media screen and (min-width: 768px){
+/* Cabeçalho ou barra de navegação*/
+nav{
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+nav ul{
+	flex-direction: row;
+	width: 70%;
+	
+}
+
+/* Header*/
+header{
+	height: 60vh;
+	justify-content: center;
+}
+
+/* Sobre*/
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;/*para quebrar*/
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+
+}
+#sobre h2{
+	align-items: justify;
+	width: 100%;
+}
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 70px;
+}
+#sobre p{
+	text-align:justify;
+}
+/*habilidades*/
+#habilidades{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 0 auto;
+
+}
+
+#habilidades h2{
+	text-align: center;
+	width: 100%;
+}
+
+#habilidades div{
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+
+}
+
+/*competencias*/
+
+#competencias {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#competencias h2, h3{
+	width: 100%;
+	text-align: center;
+	color: #FA9475;
+}
+#competencias .comp{
+	width: 33.3333333333%;
+	text-align: center;
+}
+
+#competencias p{
+	text-align: justify;
+}
+
+#competencias div{
+	margin: 0;
+	flex-direction: row;
+}
+
+}
+
+
+/*Trabalhos*/
+
+#trabalhos {
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #FA9475;
+}
+
+#trabalhos h2, h3{
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+	color: #d19f8f;
+}
+#trabalhos .trab{
+	width: 33.3333333333%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+/*Hobbies*/
+
+#hobby img{
+	width:90%;
+	align-items: center;
+}
+
+#hobby {
+	align-items: center;
+	
+	background-color: #f3deca;
+}
+
+#hobby h3{
+	padding: 16px;
+	
+	margin-bottom: 14px;
+	margin-top: 30px;
+	font-size: 1.5em;
+	text-align: center;
+	
+
+}
+
+#hobby p{
+	text-align: justify;
+
+}
+ #hobby h2{
+ 	text-align: center;
+ }
+	
+/*Certificado*/
+
+#certificado img {
+	
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #faefeb;
+}
+
+#certificado h2 {
+	width: 100%;
+	font-size: 2em;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #b18475;
+}
+#certificado .cert{
+	width: 90%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#certificado h3 {
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+	color: #b18475;
+}
+
+/*Contato*/
+ #contato{
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ 	max-width: 100%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	max-height: 40vh;
+ }
+
+ #contato h2{
+ 	text-align: center;
+ 	width: 100%;
+ }
+
+ #contato > p{
+ 	text-align: center;
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ }
+ #contato p{
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+
+
